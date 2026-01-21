@@ -90,7 +90,7 @@ File paths used for this run:
 source(here::here('R/L0/X_functions.R'))
 # functions for this process to reduce this script size
 # and load libraries used here
-source(here::here('R/L1/X_taxonomy_functions.R'))
+source(here::here('R/L1/taxonomy_functions.R'))
 
 file_paths <- get_file_paths()
 

@@ -7,7 +7,7 @@ format:
     toc: true
     toc-depth: 3
     embed-resources: true
-editor: visual
+editor: source
 date: 09/01/2025
 date-format: iso
 ---
@@ -22,8 +22,8 @@ It is not used as part of the actual workflow, but kept here for reference.
 library(taxadb)
 taxadb::td_create("gbif")
 # functions used by all 
-source(here::here('R/L0/L0_functions.R'))
-source(here::here('R/L1/L1_taxonomy_functions.R'))
+source(here::here('R/lib/shared_functions.R'))
+source(here::here('R/lib/taxonomy_functions.R'))
 
 file_paths <- get_file_paths()
 

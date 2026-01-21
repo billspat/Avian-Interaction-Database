@@ -40,7 +40,7 @@ You must have access to the google drive folder, that is, the google drive softw
 #| echo: false
 #| warnings: false
 
-L0_functions_file <- here::here('R/L0/L0_functions.R')
+L0_functions_file <- here::here('R/lib/shared_functions.R')
 
 source(L0_functions_file)
 

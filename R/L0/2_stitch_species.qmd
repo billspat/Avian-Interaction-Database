@@ -59,7 +59,7 @@ stitched_L0_file <- "ain_all_raw.csv"
 #| warnings: false
 
 
-source(here::here('R/L0/X_functions.R'))
+source(here::here('R/lib/shared_functions.R'))
 
 # This uses functions in R/L0/X_functions_files which also imports R/config.R
 # which sets the locations of the data folders. 
@@ -124,7 +124,7 @@ N Rows after transform:
 ```{r}
 intxnsL0sp$intxns <- sources_wide_to_long(intxnsL0sp$intxns)
 # intxnsL0sp is a list with several items to track counts of things and files
-# see X_functions.R for details
+# see _L0_functions.R for details
 
 nrow(intxnsL0sp$intxns)
 
