@@ -1,4 +1,4 @@
-# X_functions.R
+# _L0_functions.R
 # TITLE:          Avian Interaction Pairs L0 Data Stitching together CSVs into 1
 # AUTHORS:        Phoebe Zarnetske, Pat Bills, Emily Parker
 # COLLABORATORS:  Vincent Miele, Stephane Dray
@@ -28,7 +28,7 @@ source(here::here('R/config.R'))
 # put this statement in your script or notebook after sourcing this file
 # and put the alternate config files,
 # for example, at the top of your script...
-# source(here::here("X_functions.R")
+# source(here::here("_L0_functions.R")
 # file_paths <- get_file_paths(here::here('testdata.R'))
 
 file_paths <- get_file_paths()
